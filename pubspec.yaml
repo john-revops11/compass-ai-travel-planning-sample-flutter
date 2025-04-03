@@ -50,19 +50,19 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
-  flutter_animate: ^4.5.0
-  http: ^1.2.1
-  provider: ^6.1.2
-  go_router: ^14.1.4
-  intl: ^0.19.0
-  speech_to_text: ^6.6.2
+  flutter_animate: ^4.5.0 # Keep existing constraint or allow latest patch (4.5.2)? Using current for now.
+  http: ^1.2.1 # Keep existing constraint or allow latest patch (1.3.0)? Using current for now.
+  provider: ^6.1.2 # Keep existing constraint or allow latest patch (6.1.4)? Using current for now.
+  go_router: ^14.1.4 # Keep existing constraint or allow latest patch (14.8.1)? Using current for now.
+  intl: ^0.20.2 # Updated constraint
+  speech_to_text: ^7.0.0 # Updated constraint
   image_picker: ^1.1.2
-  mime: ^1.0.5
-  flutter_svg: ^2.0.10+1
-  cached_network_image: ^3.3.1
+  mime: ^2.0.0 # Updated constraint
+  flutter_svg: ^2.0.10+1 # Keep existing constraint or allow latest patch (2.0.17)? Using current for now.
+  cached_network_image: ^3.3.1 # Keep existing constraint or allow latest patch (3.4.1)? Using current for now.
   transparent_image: ^2.0.1
-  image: ^4.2.0
-  flutter_image_compress: ^2.3.0
+  image: ^4.2.0 # Keep existing constraint or allow latest patch (4.5.4)? Using current for now.
+  flutter_image_compress: ^2.3.0 # Keep existing constraint or allow latest patch (2.4.0)? Using current for now.
   universal_html: ^2.2.4
 
 dev_dependencies:
@@ -75,7 +75,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+  flutter_lints: ^5.0.0 # Updated constraint
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
