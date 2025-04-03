@@ -59,6 +59,10 @@ input Activity_Data {
   """
   duration_expr: Float_Expr
   """
+  ✨ `_update` server value variant of `duration` (✨ Generated from Field `Activity`.`duration` of type `Float!`)
+  """
+  duration_update: [Float_Update!]
+  """
   ✨ Generated from Field `Activity`.`embedding` of type `Vector!`
   """
   embedding: Vector
@@ -106,6 +110,10 @@ input Activity_Data {
   ✨ `_expr` server value variant of `price` (✨ Generated from Field `Activity`.`price` of type `Float!`)
   """
   price_expr: Float_Expr
+  """
+  ✨ `_update` server value variant of `price` (✨ Generated from Field `Activity`.`price` of type `Float!`)
+  """
+  price_update: [Float_Update!]
   """
   ✨ Generated from Field `Activity`.`timeOfDay` of type `String!`
   """
@@ -457,6 +465,10 @@ input Place_Data {
   ✨ Generated from Field `Place`.`tags` of type `[String]!`
   """
   tags: [String!]
+  """
+  ✨ `_update` server value variant of `tags` (✨ Generated from Field `Place`.`tags` of type `[String]!`)
+  """
+  tags_update: [String_ListUpdate!]
 }
 """
 ✨ Generated filter input type for table 'Place'. This input allows filtering objects using various conditions. Use `_or`, `_and`, and `_not` to compose complex filters.
